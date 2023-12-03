@@ -4,7 +4,7 @@ green_max = 13
 blue_max = 14
 
 def main():
-    f = open("/Users/aiden/Documents/Git/Advent-of-code-2023/day2/input1.txt", "r")
+    f = open("day2\input1.txt", "r")
     input = f.read()
     input = re.sub("Game ", "", input)
     list = input.split("\n")

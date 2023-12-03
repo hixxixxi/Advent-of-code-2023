@@ -1,9 +1,8 @@
 import re
 
 def main():
-    f = open("/Users/aiden/Documents/Git/Advent-of-code-2023/day1/input1.txt", "r")
+    f = open("day1\input1.txt", "r")
     input_text = f.read()
-    print(input_text)
     f.close()
 
     number_map = {
@@ -27,11 +26,9 @@ def main():
         input_text = re.sub(word, number, input_text)
         
     num_list = input_text.split("\n")
-    print(num_list)
 
     total = 0
     for num in num_list:
-        print(int(get_two_digit_number(num)))
         total += int(get_two_digit_number(num))
 
 

@@ -2,7 +2,7 @@ import re
 
 def main():
     # Part 1
-    f = open("/Users/aiden/Documents/Git/Advent-of-code-2023/day1/input1.txt", "r")
+    f = open("day1\input1.txt", "r")
     input = f.readlines()
     f.close()
 
