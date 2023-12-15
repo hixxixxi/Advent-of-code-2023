@@ -14,7 +14,7 @@ def main():
     for line in input:
         maze.append([ char for char in line])
 
-    for i in range(100):
+    for i in range(1000):
         total = 0
         move_north(maze)
         move_west(maze)
